@@ -1,0 +1,18 @@
+# NB: The one package with an explicit version specification in this file is
+# CPython itself.
+# To remove the version specifications in the packages below use this regex:
+# Search: - ([A-z0-9_\-]{2,})=[A-z0-9_\-\.]{2,}?=[A-z0-9_\-]*
+# Replace: - $1
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytest
+  - pylint
+  - python-dotenv
+  - sqlalchemy
+  - pyodbc
+  - coverage
+  - sphinx
+prefix: /opt/conda
