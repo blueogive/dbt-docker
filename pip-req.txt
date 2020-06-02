@@ -1,4 +1,4 @@
-dbt==0.16.1
+dbt==0.15.2
 dbt-sqlserver==0.15.2
 DateTime==4.3
 pandas==1.0.3
